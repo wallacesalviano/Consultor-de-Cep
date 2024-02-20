@@ -5,7 +5,7 @@ export type Infos = {
   complemento: string;
   bairro: string;
   uf: string;
-  ddd: number;
+  ddd?: number;
   gia?: number;
   siafi?: string;
 }
